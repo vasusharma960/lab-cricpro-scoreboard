@@ -1,5 +1,64 @@
 /* Type your code here */
+body{
+  background-image: url("assets/background-image1.png");
+  background-size: cover;
+}
 
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  margin-left: 8%;
+  margin-top: 4%;
+  position: absolute;
+  text-shadow: 2px 2px 	#989898;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+  	color: 	#696969;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.scorecard{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 10%;
+  height: 55%;
+  width: 50%;
+}
+
+table{
+  width: 120%;
+  height: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.heading{
+  background-color: #FF6600;
+  color: white;
+  font-weight: bold;
+}
+
+td{
+  font-family: 'Roboto', sans-serif;
+  height: 35px;
+  padding: 0 25px 0 25px;
+  font-size: 1rem;
+  border-bottom: 2px solid 	#B8B8B8;
+}
+
+#logo{
+  background-image: url("assets/Logo.JPG");
+  background-size: cover;
+  width: 10.92%;
+  height: 6%;
+  position: absolute;
+  margin-left: 88%;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
@@ -12,5 +71,5 @@
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
-    
+
 }
